@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package ResensiBuku;
 
 /**
  *
@@ -16,13 +17,14 @@ public class Buku {
     String tebal;
     int tahunTerbit;
     
-   
+   //contructor
     public Buku(String judul, String pengarang, String  penerbit, String tebal){
         this.judul = judul;
         this.pengarang = pengarang;
         this.penerbit = penerbit;
         this.tebal = tebal;
     }
+    //overloadingcontructor
     public Buku(String judul, String pengarang, String penerbit, String tebal ,int tahunTerbit){
         this.judul = judul;
         this.pengarang = pengarang;
